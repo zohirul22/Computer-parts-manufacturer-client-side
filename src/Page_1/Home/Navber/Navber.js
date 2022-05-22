@@ -14,6 +14,7 @@ const Navber = () => {
 
             <Nav.Link href="#part" className='text-black'>Parts</Nav.Link>
             <Nav.Link href="#review" className='text-black'>Reviews</Nav.Link>
+            <Nav.Link href="#sell" className='text-black'>Sell</Nav.Link>
             <Nav.Link href="#summary" className='text-black'>Summary</Nav.Link>
             <Nav.Link href="#pricing" className='text-black'>Pricing</Nav.Link>
             <Nav.Link href="#pricing" className='text-black'>Pricing</Nav.Link>
