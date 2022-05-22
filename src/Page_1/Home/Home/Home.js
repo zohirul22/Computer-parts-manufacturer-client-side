@@ -1,9 +1,12 @@
 import React from 'react';
 import Bannar from '../Bannar/Bannar';
+import Contract from '../Contract/Contract';
 import Footer from '../Footer/Footer';
+
 import Parts from '../Parts/Parts';
 import Reviews from '../Reviews/Reviews';
 import Selling from '../Selling/Selling';
+import Services from '../Services/Services';
 import Summary from '../Summary/Summary';
 
 
@@ -14,8 +17,10 @@ const Home = () => {
             <Parts></Parts>
             <Reviews></Reviews>
             <Selling></Selling>
-           <Summary></Summary>  
-           <Footer></Footer>
+            <Summary></Summary>
+            <Contract></Contract>
+            <Services></Services>
+            <Footer></Footer>
         </div>
     );
 };
