@@ -1,0 +1,27 @@
+.parts {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+
+}
+
+
+
+/* make services responsive */
+@media only screen and (max-width: 768px) {
+
+    /* For mobile phones: */
+    .parts {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 20px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (max-width: 992px) {
+    .parts {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+    }
+}

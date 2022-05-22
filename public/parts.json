@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "name": "Memory(PC RAM)",
+        "MinimumQuantity": 100,
+        "AvailableQuantity": 200,
+        "price": 100,
+        "description": "It's retail shop for daily needs.",
+        "img": "https://i.ibb.co/K06jDyj/ram2.jpg"
+    },
+    {
+        "id": 2,
+        "name": "PC Cooling",
+        "MinimumQuantity": 200,
+        "AvailableQuantity": 200,
+        "price": 190,
+        "description": "This place is amazing , e",
+        "img": "https://i.ibb.co/RDyW6bm/fan.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Storage",
+        "MinimumQuantity": 130,
+        "AvailableQuantity": 250,
+        "price": 200,
+        "description": "The quality of fruits and vegetables is excellent",
+        "img": "https://i.ibb.co/wC2FPpj/storage.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Computer Cases",
+        "MinimumQuantity": 10,
+        "AvailableQuantity": 20,
+        "price": 210,
+        "description": "The quality of fruits and vegetables is excellent",
+        "img": "https://i.ibb.co/hFTc1G7/case.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Motherboards",
+        "MinimumQuantity": 140,
+        "AvailableQuantity": 270,
+        "price": 230,
+        "description": "The quality of fruits and vegetables is excellent",
+        "img": "https://i.ibb.co/xm2GSt3/motherboard.jpg"
+    },
+    {
+        "id": 6,
+        "name": "CPUs/Processors",
+        "MinimumQuantity": 170,
+        "AvailableQuantity": 3000,
+        "price": 220,
+        "description": "The quality of fruits and vegetables is excellent",
+        "img": "https://i.ibb.co/7bJ2ZGG/intelcpu.jpg"
+    }
+]

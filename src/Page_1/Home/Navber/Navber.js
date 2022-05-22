@@ -1,9 +1,10 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 
 const Navber = () => {
     return (
-        <div class="navbar bg-gray-400 ">
+        <div class="navbar bg-green-100 ">
         <div class="navbar-start">
           <div class="dropdown">
             <label tabindex="0" class="btn btn-ghost lg:hidden">
@@ -22,7 +23,7 @@ const Navber = () => {
         <div class="navbar-center hidden lg:flex">
           <ul class="menu menu-horizontal p-0">
             <li><a >Home</a></li>
-            <li><a >Part</a></li>
+            <li><a  >Part</a></li>
             <li><a>Review</a></li>
             <li><a>Item 1</a></li>
             <li><a>Item 1</a></li>
