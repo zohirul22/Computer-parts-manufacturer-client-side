@@ -1,5 +1,6 @@
 import React from 'react';
 import Bannar from '../Bannar/Bannar';
+import Footer from '../Footer/Footer';
 import Parts from '../Parts/Parts';
 import Reviews from '../Reviews/Reviews';
 import Selling from '../Selling/Selling';
@@ -13,7 +14,8 @@ const Home = () => {
             <Parts></Parts>
             <Reviews></Reviews>
             <Selling></Selling>
-           {/* <Summary></Summary>  */}
+           <Summary></Summary>  
+           <Footer></Footer>
         </div>
     );
 };
