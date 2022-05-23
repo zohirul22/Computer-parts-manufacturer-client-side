@@ -4,6 +4,7 @@ import Home from './Page_1/Home/Home/Home';
 import Navber from './Page_1/Home/Navber/Navber';
 import Updatepage from './Page_1/Updatepage/Updatepage';
 import Login from './page_2/Login/Login';
+import Notfound from './page_2/Notfound/Notfound';
 import RequireAuth from './page_2/RequireAuth/RequireAuth';
 import SignUp from './page_2/SignUp/SignUp';
 
@@ -24,6 +25,9 @@ function App() {
         }></Route>
         <Route path='/login' element={<Login></Login>}></Route>
         <Route path='/signup' element={<SignUp></SignUp>}></Route>
+
+
+        <Route path='*' element={<Notfound></Notfound>}></Route>
       
       </Routes>
     </div>

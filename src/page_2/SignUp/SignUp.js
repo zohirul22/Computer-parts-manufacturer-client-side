@@ -3,6 +3,7 @@ import { Button, Form } from 'react-bootstrap';
 import { useCreateUserWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import { Link, Navigate, useNavigate } from 'react-router-dom';
 import auth from '../../firebase.init';
+import Social from '../Social/Social';
 
 const SignUp = () => {
 
@@ -50,7 +51,7 @@ const SignUp = () => {
 
     return (
         <div className='w-50 mx-auto'>
-        <h1 className='text-center  text-success'>Registar</h1>
+        <h1 className='text-center  text-red-900 text-6xl my-3 font-bold'>Registar</h1>
         <Form onSubmit={handelAddToSubmit}>
             <Form.Group className="mb-3" >
                 <Form.Label>Your Name</Form.Label>
@@ -75,6 +76,8 @@ const SignUp = () => {
             className='text-danger fs-4 ' onClick={handelRegistar} >Please Login</Link> </p>
 
        
+<Social></Social>
+
     </div>
     );
 };

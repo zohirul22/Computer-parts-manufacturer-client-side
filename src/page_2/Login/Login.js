@@ -3,6 +3,7 @@ import { Button, Form } from 'react-bootstrap';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { useSendPasswordResetEmail, useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import auth from '../../firebase.init';
+import Social from '../Social/Social';
 
 const Login = () => {
 
@@ -64,6 +65,7 @@ const handelAddToSubmit = (event) => {
 
     return (
         <div id='login' className="mx-auto w-50" style={{ height: "100vh" }}>
+
             <h1 className='text-center text-red-900 text-4xl font-bold my-4'> please Login</h1>
             <div>
                 <Form onSubmit={handelAddToSubmit}>
@@ -90,7 +92,10 @@ const handelAddToSubmit = (event) => {
                 <p className='text-success'>Forgate password? <button to={'/signup'} className='text-danger fs-4 btn btn-link' onClick={resetPassword} >Reset Password</button> </p>
             </div>
            
+            <Social></Social>
+
         </div>
+       
     );
 };
 
