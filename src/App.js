@@ -7,6 +7,7 @@ import Login from './page_2/Login/Login';
 import Notfound from './page_2/Notfound/Notfound';
 import RequireAuth from './page_2/RequireAuth/RequireAuth';
 import SignUp from './page_2/SignUp/SignUp';
+import Portfolio from './Page_3/Portfolio/Portfolio';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         }></Route>
         <Route path='/login' element={<Login></Login>}></Route>
         <Route path='/signup' element={<SignUp></SignUp>}></Route>
+        <Route path='/portfolio' element={<Portfolio></Portfolio>}></Route>
 
 
         <Route path='*' element={<Notfound></Notfound>}></Route>

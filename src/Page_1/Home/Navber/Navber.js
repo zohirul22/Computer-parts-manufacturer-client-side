@@ -31,10 +31,12 @@ const Navber = () => {
             <Nav.Link href="#sell" className='text-black'>Sell</Nav.Link>
             <Nav.Link href="#summary" className='text-black'>Summary</Nav.Link>
             <Nav.Link href="#help" className='text-black'>Help</Nav.Link>
-            <Nav.Link href="#pricing" className='text-black'>Blogs</Nav.Link>
+            <Nav.Link href="portfolio" className='text-black'>Portfolio</Nav.Link>
           
 
           </Nav>
+
+         
 
           {
             user ?
