@@ -1,20 +1,16 @@
 [
     {
-        "id": 1,
-        "reviewsName": " Stave walton",
-        "rating": "star",
-        "description": "In the best scenario for AMD, the Radeon 6700 XT and GeForce RTX 3060 Ti occupy the same price point. That being the case, it'll be interesting to see how they stack up across a massive range of games.",
-        "img": "https://i.ibb.co/n0qWx88/man3.jpg"
+    
     },
     {
-        "id": 2,
+        
         "reviewsName": "Shan Johan",
         "rating": "star",
         "description": "The RTX 3090 Ti is an overclocked 3090 with a ludicrously high power rating of 450 watts, a ~30% increase over the original. Is that dumb? Surely sounds like it, but to be sure let's go over the benchmarks.",
         "img": "https://i.ibb.co/wzRmwMH/man2.jpg"
     },
     {
-        "id": 4,
+      
         "reviewsName": "Zohirul Islam",
         "rating": "star",
         "description": "Today we're checking out Nvidia's GeForce RTX 3050, a new budget GPU addition to the RTX 30 series. This release adds a new low-end Ampere offering to the lineup, based on the same silicon used by the RTX 3060.",

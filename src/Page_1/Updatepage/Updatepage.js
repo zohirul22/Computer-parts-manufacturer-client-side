@@ -13,13 +13,13 @@ const Updatepage = () => {
     }, [])
 
     return (
-        <div className='text-center all-inventor'>
-            <img style={{ width: "200px" }} src={purchase.img} alt="" />
-            <h1 className='text-success'>Name:{purchase.name}</h1>
-            <h2 className='text-info'>Supplier:{purchase.supplier}</h2>
-            <h3 className='text-primary'>Rs:{purchase.price}</h3>
-            <h4 className='text-danger'>Quantity:{purchase.quantity}</h4>
-            <h5 className=''>Description:{purchase.description}</h5>
+        <div className='text-center '>
+            <img className='mx-auto' style={{ width: "200px" }} src={purchase.img} alt="" />
+            <h1 className='text-success'>Name : {purchase.name}</h1>
+            <h2 className='text-info'>MinimumQuantity : {purchase.MinimumQuantity} Pic</h2>
+            <h3 className='text-primary'>AvailableQuantity : {purchase.AvailableQuantity} Pic</h3>
+            <h4 className='text-danger'>Rs : $ {purchase.price}</h4>
+          
             <div className="">
                 <button className='btn btn-primary w-25 my-5 p-2 fs-3'>Delivered</button>
             </div>
