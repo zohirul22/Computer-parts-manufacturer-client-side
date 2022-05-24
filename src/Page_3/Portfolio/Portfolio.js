@@ -12,9 +12,15 @@ const Portfolio = () => {
                         <div>
                             <h1 className="text-6xl font-bold text-blue-900 mx-12">Zohirul islam Shahin!</h1>
                             <p className="py-6 px-6 text-2xl">I’m Zohirul Islam from Rajbari in Bangladesh. As a professional Full Stack Web Developer. I have been working as a Web Developer over the last 2 years. Basically I’m working Web Design & Development, Responsive Design, SEO(Search Engine Optimization) and WordPress Customization.</p>
+                            <a   className='shahin' href="https://effortless-chaja-a85549.netlify.app/#"><button class="btn btn-outline w-50 btn-secondary text-xl">Please Visit My Portfolio</button></a>
+                            
 
                         </div>
+
+            
+
                     </div>
+                  
                 </div>
             </div>
 
