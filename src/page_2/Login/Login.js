@@ -5,6 +5,10 @@ import { useSendPasswordResetEmail, useSignInWithEmailAndPassword } from 'react-
 import auth from '../../firebase.init';
 import Social from '../Social/Social';
 
+
+import 'react-toastify/dist/ReactToastify.css';
+import { toast, ToastContainer } from 'react-toastify';
+
 const Login = () => {
 
     const location = useLocation();
@@ -48,6 +52,7 @@ const handelAddToSubmit = (event) => {
     const resetPassword = async () => {
         const email = emailref.current.value;
         await sendPasswordResetEmail(email);
+        toast('Sent email');
      
     }
 
@@ -93,7 +98,7 @@ const handelAddToSubmit = (event) => {
             </div>
            
             <Social></Social>
-
+            <ToastContainer/>
         </div>
        
     );

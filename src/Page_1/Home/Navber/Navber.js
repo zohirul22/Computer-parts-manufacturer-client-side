@@ -37,7 +37,9 @@ const Navber = () => {
 
           </Nav>
 
-         
+         {
+           user &&  <Nav.Link href="dashboard" className='text-black'>Dashboard</Nav.Link>
+         }
 
           {
             user ?

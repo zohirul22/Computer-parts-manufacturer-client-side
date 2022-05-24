@@ -1,3 +1,4 @@
+import { updateProfile } from 'firebase/auth';
 import React, { useRef } from 'react';
 import { Button, Form } from 'react-bootstrap';
 import { useCreateUserWithEmailAndPassword } from 'react-firebase-hooks/auth';
@@ -26,7 +27,9 @@ const SignUp = () => {
         const name = nameRef.current.value;
         const email = emailRef.current.value;
         const password = passwordRef.current.value;
-        createUserWithEmailAndPassword(email,password)
+        await createUserWithEmailAndPassword(email, password);
+        await updateProfile({ displayName: name });
+        alert('Updated profile');
        
     }
 
