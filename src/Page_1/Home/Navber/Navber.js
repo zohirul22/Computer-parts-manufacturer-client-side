@@ -26,11 +26,11 @@ const Navber = () => {
           </Nav>
           <Nav >
 
-            <Nav.Link href="#part" className='text-black'>Parts</Nav.Link>
-            <Nav.Link href="#review" className='text-black'>Reviews</Nav.Link>
-            <Nav.Link href="#sell" className='text-black'>Sell</Nav.Link>
-            <Nav.Link href="#summary" className='text-black'>Summary</Nav.Link>
-            <Nav.Link href="#help" className='text-black'>Help</Nav.Link>
+            <Nav.Link href="home#part" className='text-black'>Parts</Nav.Link>
+            <Nav.Link href="home#review" className='text-black'>Reviews</Nav.Link>
+            <Nav.Link href="home#sell" className='text-black'>Sell</Nav.Link>
+            <Nav.Link href="home#summary" className='text-black'>Summary</Nav.Link>
+            <Nav.Link href="home#help" className='text-black'>Help</Nav.Link>
             <Nav.Link href="blogs" className='text-black'>Blogs</Nav.Link>
             <Nav.Link href="portfolio" className='text-black'>Portfolio</Nav.Link>
           

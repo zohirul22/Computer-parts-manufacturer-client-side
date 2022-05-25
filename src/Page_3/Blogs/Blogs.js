@@ -44,14 +44,14 @@ const Blogs = () => {
 
 
 <div className="mt-4">
-            <h1 className='text-2xl text-center text-red-900 font-bold'>QU.5:  You have an array of products. Each product has a name, price, description, etc. How will you implement a search to find products by name?</h1>
-                <h2 className='text-3xl text-center text-green-900 font-bold'>Ans to the qu. no.-5</h2>
-                <h1 className='text-xl text-black-900'><span className='text-2xl text-red-800'>01. </span></h1>
-                <p className='text-xl text-black-900'><span className='text-2xl text-red-800'>02. </span> </p>
-                <p className='text-xl text-black-900'><span className='text-2xl text-red-800'>03. </span></p>
-                <p className='text-xl text-black-900'><span className='text-2xl text-red-800'>04. </span></p>
-                <p className='text-xl text-black-900'><span className='text-2xl text-red-800'>05. </span></p>
-                <p className='text-xl text-black-900'><span className='text-2xl text-red-800'>06. </span> </p>
+            <h1 className='text-2xl text-center text-red-900 font-bold'>QU.4:   Why you do not set the state directly in React. For example, if you have const [products, setProducts] = useState([]). Why you do not set products = [...] instead, you use the setProducts</h1>
+                <h2 className='text-3xl text-center text-green-900 font-bold'>Ans to the qu. no.-4</h2>
+                <h1 className='text-xl text-black-900'><span className='text-2xl text-red-800'>01. </span> If you update it directly, calling the setState() afterward may just replace the update you made.</h1>
+                <p className='text-xl text-black-900'><span className='text-2xl text-red-800'>02. </span>When you directly update the state, it does not change this </p>
+                <p className='text-xl text-black-900'><span className='text-2xl text-red-800'>03. </span>If you try to update state directly then it won't re-render the component.</p>
+                <p className='text-xl text-black-900'><span className='text-2xl text-red-800'>04. </span>Instead use setState() method. It schedules an update to a component's state object. When state changes, the component responds by re-rendering.</p>
+                <p className='text-xl text-black-900'><span className='text-2xl text-red-800'>05. </span>React compares the previous state with the updated state to decide if the component needs to be re-rendered. Modifying the state directly will disturb this process.</p>
+              
             </div>
 
 

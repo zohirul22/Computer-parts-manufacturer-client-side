@@ -1,45 +1,50 @@
-[
-    {
-     
-    },
-    {
-        "name": "PC Cooling",
-        "MinimumQuantity": 200,
-        "AvailableQuantity": 200,
-        "price": 190,
-        "description": "This place is amazing , e",
-        "img": "https://i.ibb.co/RDyW6bm/fan.jpg"
-    },
-    {
-        "name": "Storage",
-        "MinimumQuantity": 130,
-        "AvailableQuantity": 250,
-        "price": 200,
-        "description": "The quality of fruits and vegetables is excellent",
-        "img": "https://i.ibb.co/wC2FPpj/storage.jpg"
-    },
-    {
-        "name": "Computer Cases",
-        "MinimumQuantity": 10,
-        "AvailableQuantity": 20,
-        "price": 210,
-        "description": "The quality of fruits and vegetables is excellent",
-        "img": "https://i.ibb.co/hFTc1G7/case.jpg"
-    },
-    {
-        "name": "Motherboards",
-        "MinimumQuantity": 140,
-        "AvailableQuantity": 270,
-        "price": 230,
-        "description": "The quality of fruits and vegetables is excellent",
-        "img": "https://i.ibb.co/xm2GSt3/motherboard.jpg"
-    },
-    {
-        "name": "CPUs/Processors",
-        "MinimumQuantity": 170,
-        "AvailableQuantity": 3000,
-        "price": 220,
-        "description": "The quality of fruits and vegetables is excellent",
-        "img": "https://i.ibb.co/7bJ2ZGG/intelcpu.jpg"
-    }
-]
+// [
+//     {
+//         "name": "Optical",
+//         "MinimumQuantity": 100,
+//         "AvailableQuantity": 200,
+//         "price": 190,
+//         "description": "This product is available our stoke.And Its warranty two years",
+//         "img": "https://i.ibb.co/7tfqJrD/optical.jpg"
+//     },
+//     {
+//         "name": "PC Cooling",
+//         "MinimumQuantity": 20,
+//         "AvailableQuantity": 200,
+//         "price": 190,
+//         "description": "This product is available our stoke.And Its warranty one year",
+//         "img": "https://i.ibb.co/RDyW6bm/fan.jpg"
+//     },
+//     {
+//         "name": "Storage",
+//         "MinimumQuantity": 130,
+//         "AvailableQuantity": 250,
+//         "price": 200,
+//         "description": " This products is very smart.This product is available our stoke.And Its warranty two years",
+//         "img": "https://i.ibb.co/wC2FPpj/storage.jpg"
+//     },
+//     {
+//         "name": "Computer Cases",
+//         "MinimumQuantity": 10,
+//         "AvailableQuantity": 20,
+//         "price": 210,
+//         "description": "Computer cases is looking good. This product is available our stoke.And Its warranty five years",
+//         "img": "https://i.ibb.co/hFTc1G7/case.jpg"
+//     },
+//     {
+//         "name": "Motherboards",
+//         "MinimumQuantity": 140,
+//         "AvailableQuantity": 270,
+//         "price": 230,
+//         "description": "This product is available our stoke.And Its warranty two years",
+//         "img": "https://i.ibb.co/xm2GSt3/motherboard.jpg"
+//     },
+//     {
+//         "name": "CPUs/Processors",
+//         "MinimumQuantity": 170,
+//         "AvailableQuantity": 300,
+//         "price": 220,
+//         "description": "This product is available our stoke.And Its warranty two years",
+//         "img": "https://i.ibb.co/7bJ2ZGG/intelcpu.jpg"
+//     }
+// ]

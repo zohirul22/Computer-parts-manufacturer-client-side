@@ -5,7 +5,7 @@ import './Parts.css'
 const Parts = () => {
     const [parts ,setParts] =useState([]);
     useEffect(()=>{
-        fetch('http://localhost:5000/part')
+        fetch('https://shielded-hollows-49907.herokuapp.com/part')
         .then(res =>res.json())
         .then(data =>setParts(data))
     } ,[])

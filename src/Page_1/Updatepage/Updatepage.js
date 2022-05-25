@@ -8,7 +8,7 @@ const Updatepage = () => {
     const [user, loading, error] = useAuthState(auth);
     const [purchase, setPurchase] = useState({});
     useEffect(() => {
-        const url = `http://localhost:5000/part/${purchaseId}`;
+        const url = `https://shielded-hollows-49907.herokuapp.com/part/${purchaseId}`;
         fetch(url)
             .then(res => res.json())
             .then(data => setPurchase(data));
