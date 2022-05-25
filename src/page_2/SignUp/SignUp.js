@@ -1,9 +1,10 @@
 import { updateProfile } from 'firebase/auth';
 import React, { useRef } from 'react';
 import { Button, Form } from 'react-bootstrap';
-import { useCreateUserWithEmailAndPassword } from 'react-firebase-hooks/auth';
+import { useCreateUserWithEmailAndPassword, useUpdateProfile } from 'react-firebase-hooks/auth';
 import { Link, Navigate, useNavigate } from 'react-router-dom';
 import auth from '../../firebase.init';
+
 import Social from '../Social/Social';
 
 const SignUp = () => {
@@ -15,6 +16,9 @@ const SignUp = () => {
         error,
     ] = useCreateUserWithEmailAndPassword(auth);
 
+    const [updateProfile, nameUpdating, NameError] = useUpdateProfile(auth);
+
+  
 
     const nameRef = useRef('');
     const emailRef = useRef('');
@@ -37,7 +41,9 @@ const SignUp = () => {
         Navigate('/login');
     }
     if (user) {
-        navigate('/home')
+       navigate('/home')
+      
+
     }
 
     let errorHandel;

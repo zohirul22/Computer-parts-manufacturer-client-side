@@ -13,6 +13,7 @@ const Navber = () => {
 
   const handelSignOut = () => {
     signOut(auth)
+   
   }
 
 

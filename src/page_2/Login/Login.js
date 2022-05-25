@@ -5,9 +5,9 @@ import { useSendPasswordResetEmail, useSignInWithEmailAndPassword } from 'react-
 import auth from '../../firebase.init';
 import Social from '../Social/Social';
 
-
 import 'react-toastify/dist/ReactToastify.css';
 import { toast, ToastContainer } from 'react-toastify';
+
 
 const Login = () => {
 
@@ -20,6 +20,8 @@ const Login = () => {
         loading,
         error,
     ] = useSignInWithEmailAndPassword(auth);
+
+  
 
 
     const [sendPasswordResetEmail, sending] = useSendPasswordResetEmail(auth);
@@ -60,6 +62,7 @@ const handelAddToSubmit = (event) => {
     const navigateRegister = (event) => {
         navigate('/signup')
     }
+
 
     if (user) {
         navigate(from, { replace: true });
