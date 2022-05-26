@@ -16,7 +16,7 @@ const Parts = () => {
             <div className="parts">
                 {
                     parts.map(part => <Part
-                    key={part.id}
+                    key={part._id}
                     part={part}
                     ></Part>)
                 }

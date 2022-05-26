@@ -1,4 +1,5 @@
 import { updateProfile } from 'firebase/auth';
+import { useForm } from "react-hook-form";
 import React, { useRef } from 'react';
 import { Button, Form } from 'react-bootstrap';
 import { useCreateUserWithEmailAndPassword, useUpdateProfile } from 'react-firebase-hooks/auth';
@@ -7,7 +8,9 @@ import auth from '../../firebase.init';
 
 import Social from '../Social/Social';
 
+
 const SignUp = () => {
+
 
     const [
         createUserWithEmailAndPassword,
@@ -18,8 +21,8 @@ const SignUp = () => {
 
     const [updateProfile, nameUpdating, NameError] = useUpdateProfile(auth);
 
-  
 
+   
     const nameRef = useRef('');
     const emailRef = useRef('');
     const passwordRef = useRef('');
@@ -36,6 +39,9 @@ const SignUp = () => {
         alert('Updated profile');
        
     }
+
+
+ 
 
     const handelRegistar = (event) => {
         Navigate('/login');
@@ -61,10 +67,18 @@ const SignUp = () => {
     return (
         <div className='w-50 mx-auto'>
         <h1 className='text-center  text-red-900 text-6xl my-3 font-bold'>Registar</h1>
+
         <Form onSubmit={handelAddToSubmit}>
+     
+            
             <Form.Group className="mb-3" >
                 <Form.Label>Your Name</Form.Label>
-                <Form.Control ref={nameRef} type="name" placeholder="Your Name" required />
+
+                <Form.Control ref={nameRef}
+
+
+
+                type="name" placeholder="Your Name" required />
             </Form.Group>
             <Form.Group className="mb-3" controlId="formBasicEmail">
                 <Form.Label>Email address</Form.Label>
