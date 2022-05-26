@@ -36,8 +36,6 @@ const SignUp = () => {
         const password = passwordRef.current.value;
        createUserWithEmailAndPassword(email, password);
        
-       
-       
     }
 
 
