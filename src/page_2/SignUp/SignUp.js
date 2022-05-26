@@ -19,7 +19,7 @@ const SignUp = () => {
         error,
     ] = useCreateUserWithEmailAndPassword(auth);
 
-    const [updateProfile, nameUpdating, NameError] = useUpdateProfile(auth);
+   
 
 
    
@@ -34,9 +34,9 @@ const SignUp = () => {
         const name = nameRef.current.value;
         const email = emailRef.current.value;
         const password = passwordRef.current.value;
-        await createUserWithEmailAndPassword(email, password);
-        await updateProfile({ displayName: name });
-        alert('Updated profile');
+       createUserWithEmailAndPassword(email, password);
+       
+       
        
     }
 
